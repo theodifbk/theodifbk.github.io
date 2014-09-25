@@ -4,6 +4,10 @@ url: "theodifbk.github.io"
 paginate: 10
 markdown: rdiscount
 permalink: pretty
-highlighter: true
+highlighter: pygments
+github: site.github 
+safe: true
+lsi: false
+source: _site
 layout: default
 
