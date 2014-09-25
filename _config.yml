@@ -8,6 +8,5 @@ highlighter: pygments
 github: site.github 
 safe: true
 lsi: false
-source: _site
 layout: default
 
