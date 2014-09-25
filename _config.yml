@@ -1,0 +1,11 @@
+name: theodifbk
+markdown: redcarpet
+highlighter: false
+timezone: Italy/Rome
+permalink: none
+baseurl: /
+url: http://theodi.fbk.eu
+destination: temp/
+
+# Explicit excludes, including dotfiles to be safe
+exclude: [.DS_Store, .git, .gitignore, .vagrant, Gruntfile.js, Vagrantfile, package.json, node_modules, backups, _assets/img/src-images, clean.sh, build.sh, README.md]
