@@ -1,0 +1,17 @@
+# Site navigation links
+
+- title: Home
+  url: /
+  excerpt: "FBK - open data institute node"
+  image: logo_node_odi_trento.png
+
+- title: about
+  url: /about/
+  excerpt: "Information about FBK and ODI"
+  image: logo_node_odi_trento.png
+
+
+- title: Open Big Data
+  url: /openbigdata/
+  excerpt: "The data user for the Big Data Challenge now open!" 
+  image: banner-hp-bigdata-02.jpg

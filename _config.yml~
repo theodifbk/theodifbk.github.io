@@ -1,0 +1,35 @@
+# Site wide configuration
+
+title: FBK - Open Data Institute node
+description: The FBK-ICT research center is since October 2013 the first Italian node of the Open Data Institute. Thanks to our active participation in the open data community, in September we could begin a conversation that eventually made FBK a city Node of the ODI. Starting from January 2014, FBK has established a brand new unit, The Digital Commons Lab, under the supervision of Maurizio Napolitano; it was assigned an autonomous space, located within the ICT Center, which will officially deliver projects as The ODI Node.
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
+locale:
+url: http://theodi.fbk.eu
+
+# Jekyll configuration
+
+sass:
+    sass_dir: _sass
+    style: compressed
+permalink: /:categories/:title/
+markdown: kramdown
+highlighter: pygments
+gems:
+  - jekyll-sitemap
+
+
+# Site owner
+owner:
+  name:
+  email:
+  twitter:
+  google:
+    ad-client: 
+    ad-slot: 
+  bio: 
+  avatar: bio-photo.jpg # 160x160 px image for author byline
+disqus-shortname:
+
+
+exclude: ["lib", "config.rb", ".sass-cache", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "*.sublime-project", "*.sublime-workspace", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "node_modules", "Gruntfile.js", "package.json"]
