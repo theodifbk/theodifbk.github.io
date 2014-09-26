@@ -14,7 +14,7 @@ ads: false
 
 The FBK-ICT research center is since October 2013 the first Italian node of the Open Data Institute. Thanks to our active participation in the open data community, in September we could begin a conversation that eventually made FBK a city Node of the ODI. Starting from January 2014, FBK has established a brand new unit, The Digital Commons Lab, under the supervision of Maurizio Napolitano; it was assigned an autonomous space, located within the ICT Center, which will officially deliver projects as The ODI Node.
 
-![logo ODI node Trento](../images/logo.png)
+![logo ODI node Trento](../images/logo_node_odi_trento.png)
 
 As our first commitment as an ODI Node, we are currently translating the Open Data Certificates into Italian. The translation team is composed of Maurizio Napolitano and Francesca De Chiara, members of the ODI node in Trento, and of Leda Bargiotti, a legal expert working for the Publications Office of the European Union in Luxembourg. The translation work is carried out as a collaborative project, and will be completed by January 2014. Further, the ODI Node - Trento is promoting the diffusion of the open data certificates in Italy: certificates are meant to be adopted by a large Italian power company, keen on testing and rating the quality of their released and available datasets. Developing the Open Data Certificates for our regional open data catalog will be the next step.
 

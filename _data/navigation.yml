@@ -1,10 +1,5 @@
 # Site navigation links
 
-- title: Home
-  url: /
-  excerpt: "FBK - open data institute node"
-  image: logo_node_odi_trento.png
-
 - title: about
   url: /about/
   excerpt: "Information about FBK and ODI"
