@@ -1,15 +1,12 @@
 ---
-layout: default
-title: "About"
-date: 
-modified:
-excerpt:
-image:
-  feature:
-  teaser:
-  thumb:
-ads: false
+layout: archive
+permalink: /
+title: "Latest Posts"
 ---
-![logo FBK](../images/logo_fbk_black_120.png)
-![logo ODI node Trento](../images/logo_node_odi_trento.png)
+
+<div class="tiles">
+{% for post in site.posts %}
+	{% include post-grid.html %}
+{% endfor %}
+</div><!-- /.tiles -->
 
