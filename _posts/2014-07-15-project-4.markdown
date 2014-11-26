@@ -1,0 +1,15 @@
+---
+title: Challenge
+subtitle: Trentino Open Data Challenge
+layout: default
+modal-id: 4
+date: 2014-11-15
+img: challenge.png
+thumbnail: challenge-thumbnail.png
+alt: image-alt
+project-date: November 2014
+website: http://challenge.dati.trentino.it/
+project: open data in trentino
+category: open data
+description: We cooperate with the Autonomous Province of Trento, the University of Trento and TrentoRISE, on the organization of the Trentino Open Data Challenge (a creative and software development competition around open data).
+---

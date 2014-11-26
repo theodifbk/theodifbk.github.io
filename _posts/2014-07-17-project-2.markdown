@@ -1,0 +1,16 @@
+---
+title: ODI Certificates
+subtitle: Open Data Certificates
+layout: default
+modal-id: 2
+date: 2014-06-17
+img: odicertificates.png
+thumbnail: odicertificates-thumbnail.png
+alt: image-alt
+website: http://certificates.theodi.org/
+project-date: Juny 2014
+project: translation
+category: tools
+description: The open data certificates are a wonderful tool to understand the quality of its open data. Our work has been in the Italian translation and its legal adaptation.
+---
+

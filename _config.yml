@@ -1,0 +1,65 @@
+url: https://theodi.fbk.eu
+#baseurl: 
+
+# Site settings
+title: Open Data Institute - Trento node
+email: napo@fbk.eu
+description: The FBK-ICT research center is since October 2013 the first Italian node of the Open Data Institute. Thanks to our active participation in the open data community, in September we could begin a conversation that eventually made FBK a city Node of the ODI. Starting from January 2014, FBK has established a brand new unit, The Digital Commons Lab, under the supervision of Maurizio Napolitano; it was assigned an autonomous space, located within the ICT Center, which will officially deliver projects as The ODI Node.
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+#  primary: fed136
+  primary: 069ee4 
+  secondary: 0066a4   
+  secondary-dark: 0066a4
+
+# Team names, titles and social links
+people:
+- name: Paolo Traverso
+  pic: 1
+  position: director of the ICT FBK center
+  social:
+    - title: home page
+      url: https://ict.fbk.eu/traverso
+    - title: twitter
+      url: http://twitter.com/traverso_paolo
+    - title: linkedin
+      url: https://www.linkedin.com/pub/paolo-traverso/7/53b/730
+
+- name: Maurizio Napolitano
+  pic: 2
+  position: technlogist
+  social:
+    - title: twitter
+      url: http://twitter.com/napo
+    - title: github
+      url: http://github.com/napo
+    - title: linkedin
+      url: https://www.linkedin.com/in/napolnx
+
+- name: Francesca De Chiara
+  pic: 3
+  position: researcher
+  social:
+    - title: twitter
+      url: https://twitter.com/lebowskiana
+    - title: github
+      url: https://github.com/francescadechiara
+    - title: linkedin
+      url: https://www.linkedin.com/pub/francesca-de-chiara/37/424/303
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/dclfbkl
+  - title: github
+    url: http://github.com/theodifbk
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Via Sommarive 18
+  - line: 38050 Povo (TN) - Italy
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,16 @@
+---
+title: Dati Trentino
+subtitle: Open Data in Trentino
+layout: default
+modal-id: 3
+date: 2013-03-16
+img: datitrentino.png
+thumbnail: datitrentino-thumbnail.png
+alt: image-alt
+website: http://dati.trentino.it/
+project-date: March 2013
+project: open data in trentino
+category: open data
+description: We cooperate with the Autonomous Province of Trento, the University of Trento and TrentoRISE, on the project to open the data on Trentino.
+---
+
