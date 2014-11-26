@@ -1,6 +1,6 @@
 ---
 title: ODI Certificates
-subtitle: Open Data Certificates
+subtitle: Open Data Certificates in italian language
 layout: default
 modal-id: 2
 date: 2014-06-17
