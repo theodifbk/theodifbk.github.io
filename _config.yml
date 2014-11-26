@@ -12,6 +12,10 @@ color:
   primary: 069ee4 
   secondary: 0066a4   
   secondary-dark: 0066a4
+  obd_primary: 867eaf
+  obd_secondary: 867eaf  
+  obd_secondary-dark: 241d50
+
 
 # Team names, titles and social links
 people:
