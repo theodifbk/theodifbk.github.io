@@ -10,6 +10,6 @@ alt: image-alt
 project-date: November 2014
 website: http://challenge.dati.trentino.it/
 project: open data in trentino
-category: open data
+category: opendata
 description: We cooperate with the Autonomous Province of Trento, the University of Trento and TrentoRISE, on the organization of the Trentino Open Data Challenge (a creative and software development competition around open data).
 ---
