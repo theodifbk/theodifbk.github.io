@@ -5,9 +5,10 @@ layout: default
 modal-id: 1
 date: 2014-12-01
 img: finodex.png
-thumbnail: finodex-thumbnail.png
+thumbnail: geo.png
 alt: image-alt
 download: https://dandelion.eu/datagems/SpazioDati/milano-grid/resource/
+type: geo
 area: Milano
 category: openbigdata
 The Milano Grid is provided in GeoJSON format. Each record (or feature) describes a square providing the following information:
