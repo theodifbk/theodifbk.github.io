@@ -5,16 +5,13 @@ owner: Telecom Italia
 layout: default
 modal-id: 12
 date: 2014-12-01
-img: finodex.png
+img: opendata.png
 thumbnail: geo.png
-alt: image-alt
+alt: opendata
 download: https://dandelion.eu/datagems/SpazioDati/trentino-grid/resource/
 type: geo
 license: ODbL 1.0
 area: Trentino
 category: openbigdata
-The Trentino Grid is provided in GeoJSON format. Each record (or feature) describes a square providing the following information:
-- Id of the square
-- Geometry of the square
-Reference system: WGS 84 - EPSG:4326
+description: The Trentino Grid is provided in GeoJSON format. Each record (or feature) describes a square providing the following information<br/>- Id of the square- Geometry of the square<br/>Reference system WGS 84 - EPSG:4326
 ---

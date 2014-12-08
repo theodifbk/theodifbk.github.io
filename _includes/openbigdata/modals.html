@@ -1,5 +1,6 @@
  <!-- Portfolio Modals -->
  {% for post in site.posts %}
+ {% if post.category == 'openbigdata' %}
     <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -17,16 +18,20 @@
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p text-align="left">{{ post.description }}</p>
                             <ul class="list-inline item-details">
-                                <li>Project:
-                                    <strong>{{ post.project }}
+                                <li>area:
+                                    <strong>{{ post.area }}
                                     </strong>
                                 </li>
-                                <li>Website:
-                                    <strong><a href="{{ post.website }}" target="_new">{{ post.website }}</a>
+                                <li>owner:
+                                    <strong>{{ post.owner }}
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong>{{ post.project-date }}
+                                <li>license:
+                                    <strong>{{ post.license }}
+                                    </strong>
+                                </li>
+                                <li>download:
+                                    <strong><a href="{{ post.website }}" target="_new">{{ post.download }}</a>
                                     </strong>
                                 </li>
                                 <!--
@@ -43,4 +48,5 @@
             </div>
         </div>
     </div>
+{% endif %}
 {% endfor %}

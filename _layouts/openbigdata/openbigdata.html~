@@ -7,11 +7,11 @@
     <body id="page-top" class="index">
     {% include openbigdata/header.html %}
     {% include openbigdata/services.html %}
-    {% include openbigdata/opendata.html %}
     {% include openbigdata/portfolio_grid.html %}
     {% include openbigdata/team.html %}
     {% include openbigdata/about.html %}
     {% include openbigdata/footer.html %}
+    {% include openbigdata/modals.html %}
     {% include openbigdata/js.html %}
     </body>
 </html>
