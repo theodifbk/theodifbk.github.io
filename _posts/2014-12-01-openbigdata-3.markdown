@@ -12,5 +12,6 @@ download: https://dandelion.eu/datagems/SpazioDati/telecom-mi-to-provinces/resou
 type: telco
 license: ODbL 1.0
 area: the city of Milan and the Italian provinces.
+category: openbigdata
 description: This dataset provides information regarding the level of interaction between the areas of the city of Milan and the Italian provinces.<br/>The level of interaction between an area A of Milan and a province B is given as a pair of decimal numbers. The first number is proportional to the number of calls issued from the area B to the province A, the second one is proportional to the number of calls from the province A to the area B.<br/>The spatial aggregation values are provided for the squares of the Milano GRID.<br/>The temporal values are aggregated in timeslots of ten minutes
 ---
