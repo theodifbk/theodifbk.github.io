@@ -10,7 +10,7 @@ alt: image-alt
 website: http://dati.trentino.it/
 project-date: March 2013
 project: open data in trentino
-category: openbigdata
+category: open data
 description: We cooperate with the Autonomous Province of Trento, the University of Trento and TrentoRISE, on the project to open the data on Trentino.
 ---
 
