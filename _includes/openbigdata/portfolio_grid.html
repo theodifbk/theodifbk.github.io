@@ -8,24 +8,23 @@
                 </div>
             </div>
             <div class="row">
-            {% for post in site.posts %}
-		{% if post.category == 'openbigdata' %}
+		{% assign products = site.posts | sort: 'modal-id' %}
+		{% for product in products %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal{{ product.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/data/{{ post.thumbnail }}" class="img-responsive" alt="">
+                        <img src="img/data/{{ product.thumbnail }}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
+                        <h4>{{ product.title }}</h4>
+                        <p class="text-muted">{{ product.subtitle }}</p>
                     </div>
                 </div>
-		{% endif %}
-            {% endfor %}
             </div>
+         {% endfor %}
         </div>
     </section>
