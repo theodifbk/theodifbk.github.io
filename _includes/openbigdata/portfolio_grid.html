@@ -7,8 +7,8 @@
                     <h3 class="section-subheading text-muted">Most of the data refers to the period from November 2013 to December 2013 - refers this page for download <a href="https://dandelion.eu/datamine/open-big-data/">https://dandelion.eu/datamine/open-big-data/<a></h3>
                 </div>
             </div>
-            <div class="row">
-		{% assign products = site.posts | sort: 'modal-id' %}
+		{% assign products = site.posts | category: 'openbigdata' %}
+		<div class="row">
 		{% for product in products %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ product.modal-id }}" class="portfolio-link" data-toggle="modal">
