@@ -3,7 +3,7 @@ title: Precipitation - Trentino
 subtitle: The dataset describes precipitation intensity over the province of Trento.
 owner: Meteotrentino
 layout: default
-modal-id: 1
+modal-id: 17
 date: 2014-12-01
 img: opendata.png
 thumbnail: weather.png
