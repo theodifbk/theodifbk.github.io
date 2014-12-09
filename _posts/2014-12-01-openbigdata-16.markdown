@@ -3,7 +3,7 @@ title: Meteotrentino Weather Station‎ Data
 subtitle: This dataset contains measurements about temperature, precipitation and wind speed/direction taken in 36 Weather Stations.
 owner: Meteotrentino
 layout: default
-modal-id: 1
+modal-id: 16
 date: 2014-12-01
 img: opendata.png
 thumbnail: weather.png
