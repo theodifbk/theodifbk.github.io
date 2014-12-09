@@ -1,30 +1,31 @@
 <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Open Big Data</h2>
-                    <h3 class="section-subheading text-muted">Most of the data refers to the period from November 2013 to December 2013 - refers this page for download <a href="https://dandelion.eu/datamine/open-big-data/">https://dandelion.eu/datamine/open-big-data/<a></h3>
-                </div>
-            </div>
-		{% assign products = site.posts | category: 'openbigdata' %}
-		<div class="row">
-		{% for product in products %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ product.modal-id }}" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/data/{{ product.thumbnail }}" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>{{ product.title }}</h4>
-                        <p class="text-muted">{{ product.subtitle }}</p>
-                    </div>
-                </div>
-            </div>
-         {% endfor %}
-        </div>
-    </section>
+<section id="portfolio">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 text-center">
+			<h2 class="section-heading">Open Big Data</h2>
+			<h3 class="section-subheading text-muted">Most of the data refers to the period from November 2013 to December 2013 - download: <a href="https://dandelion.eu/datamine/open-big-data/">https://dandelion.eu/datamine/open-big-data/<a></h3>
+		</div>
+	</div>
+	<div class="row">
+	{% for post in site.posts %}
+		{% if post.category == 'openbigdata' %}
+		<div class="col-md-4 col-sm-6 portfolio-item">
+			<a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+			<div class="portfolio-hover">
+				<div class="portfolio-hover-content">
+					<i class="fa fa-plus fa-3x"></i>
+				</div>
+			</div>
+				<img src="img/data/{{ post.thumbnail }}" class="img-responsive" alt="">
+			</a>
+			<div class="portfolio-caption">
+				<h4>{{ post.title }}</h4>
+					<p class="text-muted">{{ post.subtitle }}</p>
+			</div>
+		</div>
+		{% endif %}
+	{% endfor %}
+	</div>
+</div>
+</section>
