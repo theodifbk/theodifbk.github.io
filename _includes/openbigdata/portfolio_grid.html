@@ -8,8 +8,8 @@
 		</div>
 	</div>
 	<div class="row">
-	{% for post in site.posts %}
-		{% if post.category == 'openbigdata' %}
+
+	{% for post in site.openbigdataposts | sort  %}
 		<div class="col-md-4 col-sm-6 portfolio-item">
 			<a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
 			<div class="portfolio-hover">
@@ -24,7 +24,6 @@
 					<p class="text-muted">{{ post.subtitle }}</p>
 			</div>
 		</div>
-		{% endif %}
 	{% endfor %}
 	</div>
 </div>
