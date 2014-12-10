@@ -12,6 +12,6 @@ download: https://dandelion.eu/datagems/SpazioDati/milano-grid/resource/
 type: opendata
 license: ODbL 1.0
 area: Milano
-category: openbigdata
+category: telecom
 description: The Milano Grid is provided in GeoJSON format. Each record (or feature) describes a square providing the following information<br/>- Id of the square- Geometry of the square<br/>Reference system WGS 84 - EPSG:4326
 ---
