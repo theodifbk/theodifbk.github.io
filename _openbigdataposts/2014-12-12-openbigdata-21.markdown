@@ -3,7 +3,7 @@ title: Administrative Regions
 subtitle: This dataset provides information about the current administrative regions in Europe. Original data sources include ISTAT and Eurostat data.
 owner: SpazioDati s.r.l.
 layout: default
-modal-id: 1
+modal-id: 22 
 date: 2014-12-01
 img: opendata.png
 thumbnail: geo.png
