@@ -14,10 +14,6 @@ function faqshow(url) {
 		}
 }
 </script>
-GIACOMO
-	{% for post in site.collections %}
-<h4>{{ post.title }}</h4>
-	{% endfor %}
     <section id="faq" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -27,59 +23,20 @@ GIACOMO
             </div>
         </div>
         <div class="row">
+		{% for post in site.openbigdatafaqs %}
 			<h4 class="service-heading text-center">
-			Which kind of data are we opening up? 
+			{{ post.title }}
 			</h4>
-			<p class="text-muted" id="faq1" style="display:none;background-color:white">
-These data were used in the <a href="http://www.telecomitalia.com/tit/en/bigdatachallenge.html" target="_new">Telecom Italia Big Data Challenge 2014</a>. The challenge was organized by Telecom Italia, in collaboration with <a href="http://www.eitictlabs.eu/" target="_new">EIT ICT Labs</a>, <a href="http://www.media.mit.edu/" target="_new">MIT Media Lab</a>, <a href="http://www.polimi.it/" target="_new">Milan Polytechnic</a>, <a href="http://ict.fbk.eu" target="_new">FBK - Fondazione Bruno Kessler</a>,<a href="http://www.unitn.it" target="_new">University of Trento</a> and <a href="http://trentorise.eu" target="_new">TrentoRISE</a> to call developers, researchers and designers from all over the world to come up with brand-new big data services and applications. The datasets of the Telecom Italia Big Data Challenge are geo-referenced (area: <a href="http://en.wikipedia.org/wiki/Milan">Milan</a> and of the <a href="http://en.wikipedia.org/wiki/Trentino">Autonomous Province of Trento</a> – Italy) and anonymized. The dataset contains millions of records of data covering the period from November to December 2013 extracted from telecommunications records, energy, weather, public and private transport, social networks and events.
-			</p>
-			<p class="text-center"><a href="javascript:faqshow('#faq1')"><i class="fa fa-arrow-circle-down fa-2x" id="afaq1"></i></a></p>
-			<h4 class="service-heading text-center">
-               Why do you choose ODbL license to release this data?
-			</h4>
-			<div id="faq2" style="display:none;background-color:white">
+			<div id="faq{{ post.faqid}}" style="display:none;background-color:white">			
 			<p class="text-muted">
-            The <a href="http://opendatacommons.org/licenses/odbl" target="_new">Open Database License (ODbL)</a> explicitly covers data and not just creative works like photographs or text. A plain language summary of the ODbL is available on the Open Data Commons website.
-                You are free:</p>
-                <ul class="text-muted">
-                <li>to share: to copy, distribute and use the database;</li>
-                <li>to create: to produce works from the database;</li>
-                <li>to adapt: to modify, transform and build upon the database.</li>
-                </ul>
-				<p class="text-muted">
-                The ODbL also requires you to share any improvements you make to this databases under the ODbL as well. For example, if you combine the information with your own data, the resultant information must be published under the Attribution Share-Alike ODbL. This means that the whole community can benefit from both of our work on the database.<br/>
-                The ODbL requires you to attribute your use of this data. This is important as it allows us (and in turn the community) to benefit from reuse of our work, and so allows us to continue to provide this service. Use of any data must be accompanied by a hyperlink reading "<a href="http://www.telecomitalia.com/tit/en/bigdatachallenge.html" target="_new">from BigDataChallenge contest</a>" and linking to either the <a href="http://theodi.fbk.eu" target="_new">ODI node Trento</a> section homepage or the page referring to the information in question. 
-  			</p>  
+			{{ post.description }}
+			</p>
 			</div>
-			<p class="text-center"><a href="javascript:faqshow('#faq2')"><i class="fa fa-arrow-circle-down fa-2x" id="afaq2"></i></a></p>
-			<h4 class="service-heading text-center">
-            Why the data is published on dandelion.eu? Do visitors of the site need a login?
-			</h4>
-			<p class="text-muted" id="faq3" style="display:none;background-color:white">
-            <a href="http:/spaziodati.eu" target="_new">SpazioDati</a> is one of the original technical partners of the “<a href="http://www.telecomitalia.com/tit/en/bigdatachallenge.html" target="_new">Big Data Challenge</a>” contest. Its main role was to provide an affordable way to access to all the data related to the challenge and <a href="http://dandelion.eu" target="_new">Dandelion</a> is the original platform where all of this data was published.<br/>
-            It’s not the first time that some large datasets are made available to the public, through a controlled access: we can cite <a href="http://aws.amazon.com/s3/" target="_new">the public data sets published on Amazon S3</a>, for example.<br/>
-            But it’s the first time that there is an official Open Data release starting from some Big Data sets: we know that <a href="http://www.theguardian.com/public-leaders-network/2014/apr/15/big-data-open-data-transform-government">it’s an hot topic</a>.<br/>
-            Using your account on dandelion.eu to access the data, let us to collect some useful insights on the real demand side of the Open Data value chain.<br/>
-            We’ll publish these statistics of usage as Open Data, to make all the community involved more aware about the data value chain. 
-            It’s also useful to give some real perceptions on the Smart Cities and Smart Communities visions.
+			<p class="text-center">
+				<a href="javascript:faqshow('#faq{{ post.faqid}}')">
+					<i class="fa fa-arrow-circle-down fa-2x" id="afaq1"></i>
+				</a>
 			</p>
-			<p class="text-center"><a href="javascript:faqshow('#faq3')"><i class="fa fa-arrow-circle-down fa-2x" id="afaq3"></i></a></p>
-			<h4 class="service-heading text-center">
-            Why some datasets are published as raw data and others as APIs?
-			</h4>
-			<p class="text-muted" id="faq4" style="display:none;background-color:white">
-As you can see, the data was supplied in batch mode, using downloadable compressed files, or through API, if this kind of access is meaningful.<br/> 
-It depends from the nature itself of the data: the telephone grids or the data about time intervals
-  			</p>
-			<p class="text-center"><a href="javascript:faqshow('#faq4')"><i class="fa fa-arrow-circle-down fa-2x" id="afaq4"></i></a></p>
-			<h4 class="service-heading text-center">
-            Can I copy these data and publish on others websites? Or using torrent, and P2P sharing networks? 
-            </h4>
-			<p class="text-muted" id="faq5" style="display:none;background-color:white">
-            Yes, of course. You can do anything you want, as you remain under the <a href="http://opendatacommons.org/licenses/odbl" target="_new">ODbL license conditions</a>.
-			</p>
-			<p class="text-center"><a href="javascript:faqshow('#faq5')"><i class="fa fa-arrow-circle-down fa-2x" id="afaq5"></i></a></p>
+	{% endfor %}
 		</div>
-    </div>
-
     </section>
