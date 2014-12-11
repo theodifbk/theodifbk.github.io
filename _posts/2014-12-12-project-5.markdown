@@ -1,0 +1,15 @@
+---
+title: The Telecom Italia Big Data Challege 
+subtitle: Open Big Data
+layout: default
+modal-id: 5
+date: 2014-12-12
+img: openbigdata.png
+thumbnail: openbigdata-thumbnail.png
+alt: image-alt
+project-date: Dicember 2014
+website: http://theodi.fbk.eu/openbigdata
+project: The Telecom Italia Big Data Challege - OPEN BIG DATA
+category: opendata
+description: We take the open data policy for the data used in the Telecom Italia Big Data Challenge
+---
