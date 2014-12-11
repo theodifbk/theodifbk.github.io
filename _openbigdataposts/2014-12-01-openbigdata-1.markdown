@@ -13,5 +13,5 @@ type: opendata
 license: ODbL 1.0
 area: Milano
 category: openbigdata
-description: The Milano Grid is provided in GeoJSON format. Each record (or feature) describes a square providing the following information<br/>Id of the square<br/>Geometry of the square<br/>Reference system WGS 84 - EPSG4326
+description: The Milano Grid is provided in GeoJSON format. Each record (or feature) describes a square providing the following information * Id of the square * Geometry of the square * Reference system WGS 84 - EPSG4326
 ---

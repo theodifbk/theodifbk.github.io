@@ -9,7 +9,7 @@ thumbnail: openbigdata-thumbnail.png
 alt: image-alt
 project-date: Dicember 2014
 website: http://theodi.fbk.eu/openbigdata
-project: The Telecom Italia Big Data Challege - OPEN BIG DATA
+project: The Telecom Italia Big Data Challenge - OPEN BIG DATA
 category: opendata
 description: We take the open data policy for the data used in the Telecom Italia Big Data Challenge
 ---
