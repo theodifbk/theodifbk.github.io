@@ -13,6 +13,17 @@ function faqshow(url) {
 		}
 }
 </script>
+<style>
+.faqbox {
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px; 
+display:none;
+background-color:white;
+padding:10px;
+}	
+
+</style>
     <section id="faq" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -26,7 +37,7 @@ function faqshow(url) {
 			<h4 class="service-heading text-center">
 			{{ post.title }}
 			</h4>
-			<div id="faq{{ post.faqid}}" style="display:none;background-color:white;padding:10px">			
+			<div id="faq{{ post.faqid}}" class="faqbox">			
 			<p class="text-muted">
 			{{ post.description }}
 			</p>
