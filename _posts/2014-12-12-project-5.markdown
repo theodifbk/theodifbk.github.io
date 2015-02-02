@@ -1,5 +1,5 @@
 ---
-title: The Telecom Italia Big Data Challege 
+title: The Telecom Italia Big Data Challenge 
 subtitle: Open Big Data
 layout: default
 modal-id: 5
