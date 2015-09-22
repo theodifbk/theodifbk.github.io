@@ -2,7 +2,7 @@
 title: Open Data 200 
 subtitle: study the impact of opendata in Italy
 layout: default
-modal-id: 5
+modal-id: 6 
 date: 2015-07-07
 img: opendata200.png
 thumbnail: opendata200-thumbnail.png
