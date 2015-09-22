@@ -1,0 +1,15 @@
+---
+title: Open Data 200 
+subtitle: study the impact of opendata in Italy
+layout: default
+modal-id: 5
+date: 2015-07-07
+img: opendata200.png
+thumbnail: opendata200-thumbnail.png
+alt: image-alt
+project-date: July 2015
+website: http://www.opendata500.com/it/?lan=en
+project: open data 200
+category: opendata
+description: Open Data 200 Italy is a joint project designed and implemented by the Govlab in partnership with the Fondazione Bruno Kessler, an international research institute located in Trento, to conduct the first comprehensive, internationally comparable study of Italian companies that are using open data to generate business, develop products and services, and create social value. 
+---
